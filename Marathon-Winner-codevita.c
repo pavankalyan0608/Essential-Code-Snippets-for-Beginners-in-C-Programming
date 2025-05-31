@@ -1,6 +1,5 @@
-/////https://theinquisitive.in/questions/Codevita-Previous-Questions/Marathon-Winner
+// Code vita Question given in TCS Exam  link for question https://theinquisitive.in/questions/Codevita-Previous-Questions/Marathon-Winner
 
-//https://theinquisitive.in/questions/Codevita-Previous-Questions/Marathon-Winner
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
