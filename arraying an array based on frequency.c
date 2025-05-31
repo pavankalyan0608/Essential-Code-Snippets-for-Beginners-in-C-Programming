@@ -1,5 +1,19 @@
+//Write a C program to:
+
+//Accept an array of integers from the user.
+
+//Find the frequency of each unique element.
+
+//Sort and display the elements in descending order of their frequency.
+
+//If two elements have the same frequency, maintain the order based on their original descending sorted order.
+
+//Example:- Input 6
+//               2 3 2 5 3 2
+  //        output:-2 3 5
+
+
 #include<stdio.h>
-// program is to print the  highest frequnecy number  of the array in ascending order
 int main()
 {
     int a[20], b[10][10], count[10];
