@@ -1,4 +1,4 @@
-//https://www.codingninjas.com/studio/library/minimum-gifts
+// find the interview question to find minmum gifts  https://www.codingninjas.com/studio/library/minimum-gifts
 #include<stdio.h>
 
 int main()
