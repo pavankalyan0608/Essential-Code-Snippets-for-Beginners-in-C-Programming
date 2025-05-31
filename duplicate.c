@@ -1,44 +1,54 @@
 //Remove duplicate Elements from a given array
-#include<stdio.h>
+Input:-
+Enter number of elements: 8
+Enter the elements:2 3 2 5 3 4 5 6
 
-int main()
-{
-    int a[20], b[20], i, j, k = 0, n, count = 0;
-    scanf_s("%d", &n);
-    for (i = 0;i < n;i++)
-        scanf_s("%d", &a[i]);
-    for (i = 0;i < n;i++)
-    {
+output:-2
+3
+5
+4
+6
 
-        for (j = 0;j < i;j++)
-        {
-            if (a[i] == b[j])
 
-            {
+#include <stdio.h>
+
+int main() {
+    int a[20], b[20];
+    int i, j, k = 0, n;
+    
+    // Read the number of elements
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    // Read array elements
+    printf("Enter the elements:\n");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+    }
+
+    // Remove duplicates
+    for (i = 0; i < n; i++) {
+        int isDuplicate = 0;
+
+        // Check if a[i] is already in b[]
+        for (j = 0; j < k; j++) {
+            if (a[i] == b[j]) {
+                isDuplicate = 1;
                 break;
             }
-
         }
 
-        if (j == i)
-        {
-            b[k] = a[i];
-            k++;
-            count++;
-
-
+        // If not duplicate, add to b[]
+        if (!isDuplicate) {
+            b[k++] = a[i];
         }
     }
 
-
-
-    for (i = 0;i < count;i++)
-
+    // Print unique elements
+    printf("Unique elements:\n");
+    for (i = 0; i < k; i++) {
         printf("%d\n", b[i]);
-
-
-
-
+    }
 
     return 0;
 }
