@@ -1,4 +1,7 @@
-////finding the second max digit -second min digit in a given number
+
+// Question:-  C Program to find the difference between  the second max digit and second min digit in a given number
+ //Condition:- Could not use any other variable to store the given Number.
+//Example:-
 //input:1234
 //output:3-2=1
 #include<stdio.h>
@@ -6,6 +9,7 @@
 int main()
 {
     int n;
+     printf("Enter a number : ");
     scanf_s("%d", &n);
     int max, min, max2, min2, temp, rem;
     max = n % 10;
