@@ -1,0 +1,1 @@
+This module is designed to help students understand important and frequently asked interview questions for freshers across various companies. All programming examples are provided in the C programming language.
