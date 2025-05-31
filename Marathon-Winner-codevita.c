@@ -1,4 +1,4 @@
-// Code vita Question given in TCS Exam  link for question https://theinquisitive.in/questions/Codevita-Previous-Questions/Marathon-Winner
+// Code vita Question given in TCS Exam  link for question https://theinquisitive.in/questions/Codevita-Previous-Questions/Marathon-Winner find the question and input and exmaples here
 
 #include<stdio.h>
 #include<conio.h>
